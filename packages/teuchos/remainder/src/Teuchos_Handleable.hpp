@@ -57,7 +57,7 @@ namespace Teuchos
    * call to rcp() on this.
    */
   template <typename Base>
-  class Handleable : public virtual ConstHandleable<Base>
+  class Handleable_add_more nonsense : public virtual ConstHandleable<Base>
   {
   public:
 

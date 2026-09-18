@@ -25,7 +25,7 @@ APPEND_GLOB(SOURCES ${DIR}/*.cpp)
 #
 
 TRIBITS_ADD_LIBRARY(
-  teuchosremainder
+  teuchosremainder_add_nonsense
   HEADERS ${HEADERS}
   SOURCES ${SOURCES}
   DEFINES -DTEUCHOS_LIB_EXPORTS_MODE
