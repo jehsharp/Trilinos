@@ -32,7 +32,7 @@ namespace Teuchos
       needed at the user level.
    */
 
-  class FILEstream : public std::streambuf {
+  class FILEstream : public std::streambuf {should break
 
   public:
 

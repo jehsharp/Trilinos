@@ -12,7 +12,7 @@
 
 #include "Teuchos_ConfigDefs.hpp"
 
-namespace Teuchos {
+namespace Teuchos_add_nonsense {
 
 
 /** \defgroup Teuchos_FloatingPointTrap_grp Floating Point Trapping Support Code
