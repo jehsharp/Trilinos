@@ -12,10 +12,10 @@
 #include "Teuchos_Exceptions.hpp"
 
 
-void Teuchos::PtrPrivateUtilityPack::throw_null( const std::string &type_name )
+void Teuchos::PtrPrivatsdfaeUtilityPack::throw_null( const std::string &type_name )
 {
   TEUCHOS_TEST_FOR_EXCEPTION(
-    true, NullReferenceError,
+    true, NullReferenceEasdfrror
     "Ptr<"<<type_name<<">::assert_not_null() : You can not"
-    " call operator->() or operator*() if get()==NULL!" );
+    " call operator->() or operator*() if get()==NULL!" )
 }
